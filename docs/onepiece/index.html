@@ -8,27 +8,32 @@
 		<title>Home</title>
     </head>       
     <body>
-       	<div id="interface">
-				<header id="cabecalho">
-					<hgroup>
-						<h1>Site 4Fun One Piece</h1>
-						<h2>One piece é o poder</h2>
-					</hgroup>
-					<nav id="menu">
-						<h1>Menu Principal</h1>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="historia.html">Historia</a></li>
-							<li><a href="imagens.html">Fotos</a></li>
-							<li><a href="formulario.html">formulário</a></li>
-							<li><a href="contato.html">Fale conosco</a></li>
-							<li><a href="../index.html">Voltar ao portfólio</a></li>
-						</ul>
-					</nav>
-				</header>
+		<div id="interface">
+			<header id="cabecalho">
+					<h1>Site One Piece do meu portfólio</h1>
+				<nav id="menu">
+					<h1>Menu Principal</h1>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="historia.html">Historia</a></li>
+						<li><a href="imagens.html">Fotos</a></li>
+						<li><a href="formulario.html">formulário</a></li>
+						<li><a href="contato.html">Fale conosco</a></li>
+						<li><a href="../index.html">Voltar ao portfólio</a></li>
+					</ul>
+				</nav>
+			</header>
 				
 		<section id="corpo">
-				<h2>Quem é:</h2>
+				<h2>Um pouco sobre:</h2>
+				<video controls poster="demo.jpg">
+					<source src="videos/abertura1000.mp4" type="video/mp4">
+					<object>
+					  <embed src="demo.mp4" type="application/x-shockwave-flash" 
+					  allowfullscreen="false" allowscriptaccess="always">  		
+					</object>
+					Formato não suportado  
+				  </video>
 				
 				<p>One Piece (ワンピース Wan Pīsu?) é uma série de mangá escrita e ilustrada por Eiichiro Oda. Os capítulos têm sido serializados na revista Weekly Shōnen Jump desde 22 de julho de 1997, com os capítulos compilados e publicados em 104 volumes tankōbon pela editora Shueisha até novembro de 2022. One Piece conta as aventuras de Monkey D. Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido uma fruta do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o próximo Rei dos Piratas.	
 				</p>
@@ -39,23 +44,16 @@
 				<p>One Piece recebeu elogios pelo seu enredo, arte, humor e caracterização. Vários volumes do mangá quebraram recordes de publicação, incluindo a maior tiragem inicial de qualquer livro no Japão. O sítio oficial da série anunciou que o mangá estabeleceu um recorde mundial como "a série de quadrinhos de um mesmo autor com mais cópias publicadas no mundo". Até maio de 2020, o mangá já tinha vendido mais de 473 milhões de cópias em todo o mundo, sendo a série de mangá mais vendida da história, além de ser a segunda série de livros (se contarmos mangás na lista) mais vendida de todos os tempos, só perdendo para a série de livros britânica Harry Potter[3]. Foi a série de mangá mais vendida pelo décimo primeiro ano consecutivo em 2018. One Piece é uma das franquias de mídia com maior bilheteria de todos os tempos, estima-se que tenha gerado mais de 21 bilhões de dólares em receita total de franquia, a partir de mangás, animes e filmes, jogos e mercadorias.[4]
 				</p>
 
-				<video controls poster="demo.jpg">
-					<source src="videos/abertura1000.mp4" type="video/mp4">
-					<object>
-					  <embed src="demo.mp4" type="application/x-shockwave-flash" 
-					  allowfullscreen="false" allowscriptaccess="always">  		
-					</object>
-					Formato não suportado  
-				  </video>
-
-
-				<figure class="foto-legenda">
-					<img src="imagens/siluet-luffy-disebut-mirip-nika.jpg">
+				  <picture class="foto-legenda">
+					<source media="(max-width: 750px)" srcset="imagens/luffy-principal-m.png" type="image/png">
+					<source media="(max-width: 1050px)" srcset="imagens/luffy-principal-g.png" type="image/png">
+					<img src="imagens/luffy-principal-p.png" alt="imagem flexível">
 					<figcaption>
 						<h3>Monkey D. Luffy</h3>
 						<h3>Um pirata que só quer a diversão.</h3>
 					</figcaption>
-				</figure>
+				</picture>
+				
 				<h2>Como ele é?</h2>
 				<p>Luffy é conhecido como "Luffy Chapéu de Palha" por sua marca registrada que é o Chapéu de Palha, que ele ganhou emprestado ainda jovem pelo lendário Yonkou, Shanks "O Ruivo", que, por sua vez o recebeu de Gol D. Roger. Luffy veste um short azul, sandálias e um colete vermelho com mangas. Luffy também tem uma cicatriz com dois pontos embaixo do olho esquerdo (que ele ganhou por se esfaquear usando uma faca em seu olho para mostrar para Shanks que ele era um homem) e cabelo preto curto e bagunçado. Ele foi gravemente ferido por Akainu na Batalha de Marineford, deixando uma grande cicatriz em forma de "X" em seu peito. Parecendo ser magro debaixo de sua camisa, ele tem um físico surpreendentemente bem construído. Ele é aparentemente muito baixo, pois sua altura é ofuscada pela maioria dos indivíduos na série.
 				</p>
@@ -83,7 +81,7 @@
 				</p>
 			</aside>
 			<footer id="rodape">
-				<p>Copyright &copy; 2022 - by Maycon Wallas <br/>
+				<p>Maycon Wallas - 2023:
 				<a href="https://github.com/mayconwallas" target="_blank">GitHub<a/> | <a href="https://www.instagram.com/mayconwallasbs/" target="_blank">instagram<a/> | <a href="https://www.linkedin.com/in/maycon-wallas-balbino-da-silva-702710179/" target="_blank">linkedin<a/>
 				</p>
 			</footer>	

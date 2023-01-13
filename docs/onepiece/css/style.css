@@ -14,11 +14,41 @@ body{
     background-size: cover;*/
 }
 
+div#interface {
+    margin: -20px auto -10px auto;
+    box-shadow: 0px 0px 10px rgba(51, 50, 50, 0.5);
+    padding: 50px;
+    background: rgba(3, 76, 88, 0.6);
+    width: 80%;    
+}
+
+header#cabecalho {
+    border-bottom:1px #5e5c5c solid;
+    height: 150px;
+    clear: both;
+    }
+
+header#cabecalho h1 {
+    font-size: 25pt;
+    color: #7cb6ec;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+ header#cabecalho h2 {
+    font-size: 15pt;
+    color: #7cb6ec;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
 nav#menu {
     display: block;
 }
 
-nav#menu ul{
+nav#menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
@@ -27,7 +57,7 @@ nav#menu ul{
     		
 }
 
-nav#menu li{
+nav#menu li {
     display: inline-block;
     background-color: #a5d7eb;
     padding: 10px;
@@ -55,42 +85,7 @@ nav#menu a {
 nav#menu a:hover {
     color: #ffffff;
     text-decoration: underline;
-}
-
-
-div#interface {
-    margin: -20px auto -10px auto;
-    box-shadow: 0px 0px 10px rgba(51, 50, 50, 0.5);
-    padding: 50px;
-    background: rgba(3, 76, 88, 0.6);
-    width: 80%;    
-}
-
-header#cabecalho {
-    border-bottom:1px #5e5c5c solid;
-    height: 150px;
-    clear: both;
-    }
-
-img {
-    width: 35%;
-}
-
-header#cabecalho h1{
-    font-size: 25pt;
-    color: #7cb6ec;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
-    padding: 0px;
-    margin-bottom: 0px;
-}
-
- header#cabecalho h2{
-    font-size: 15pt;
-    color: #7cb6ec;
-    padding: 0px;
-    margin-top: 0px;
-}
-        
+}     
 
 p {
     text-indent: 50px;
@@ -104,6 +99,13 @@ a {
 
 a:hover{
     text-decoration: underline;   
+}
+
+
+
+
+img {
+    width: 35%;
 }
 
 /* configurando o rodape*/
