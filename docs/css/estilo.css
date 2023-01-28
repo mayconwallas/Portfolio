@@ -1,21 +1,25 @@
 body {
     width: 100%;
-    height: 100%;
     padding: 0;
     margin: 0;
     border: 0;
-    background: rgb(182, 153, 241);
+    background: rgba(90, 133, 226, 0.959);
+    color: rgb(255, 255, 255);
+    overflow-x: hidden;
 }
 
+
+/* cabeçalho e menus de navegação */
+
 header#cabecalho {
+    position: fixed;
+    width: 100%;
     display: flex;
     background: #ffffff10;
     border: 2px solid #ffffff10;
-    backdrop-filter: blur(10px);
-    height: 100%;
-
-    
+    backdrop-filter: blur(10px);  
 }
+
 img#icon-menu {
     width: 40px;
 }
@@ -43,21 +47,84 @@ nav#menu h1{
     display: none;
 }
 
-section#corpo {
+
+/*corpo do site */
+main#corpo {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
+
 div {
     margin: 15px;
 }
+/*primeira parte do main */
+section#parte1 {
+    height: 800px;
+}
 
+div#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100%;
+}
+
+div#conteudo {
+    width: 30%;
+}
+
+div#foto-conteudo {
+    width: 30%;
+}
+
+/*segunda parte do main */
+section#parte2 {
+    height: 800px;
+    background: #1cb1b131;
+    border: 2px solid #ffffff10;
+}
+
+div#inicio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100%;
+}
+h2 {
+    text-align: center;
+}
+
+div#imagensProjetos img {
+    margin: 5px;
+    width: 190px;
+    height: 190px;
+
+}
+
+
+/*terceira parte do main */
+section#habilidades {
+    height: 800px;
+}
+
+
+
+/* rodape do site */
 footer#rodape {
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
     text-align: center;
     background: #ffffff10;
     border: 2px solid #ffffff10;
     backdrop-filter: blur(10px);
     margin-top: -10px;
-    height: 100%;
     margin-right: -10px;
     margin-left: -10px;
      

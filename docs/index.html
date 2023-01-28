@@ -8,48 +8,67 @@
         <title>portfólio</title>
         <link rel="stylesheet" href="css/estilo.css">
     </head>
-    <body>
+    <body onload="anoRodape()">
         <header id="cabecalho">
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ul>
                     <li><img id="icon-menu" src="imagens/html_css_js.png" alt="icone-html-css-javascript"></li>
                     <li id="texto">inicio</li>
-                    <li id="texto">sobre mim</li>
                     <li id="texto">projetos</li>
                     <li id="texto">habilidades</li>
                     <li><img id="icon-menu" src="imagens/html_css_js.png" alt="icone-html-css-javascript"></li>
                 </ul>
             </nav>
         </header>
-        <section id="corpo">
-                <div class="container">
-                    <div class="row">
-                        <div>
-                
-                        </div>
-                    </div>
-                </div>   
-            <div id="inicio">
-                <p>apresentação e alguma imagem entra aqui</p>
-            </div>
-            <div id="sobre">
-                <p>texto sobre mim e talvez a imagem do inicil continha</p>
-            </div>
-            <div id="projetos">
-                <p>apresentação e alguma imagem entra aqui</p>
-                <p><a href="onepiece/index.html">One Piece</a></p>
-            </div>
-            <div id="habilidades">
-                <p>coloca o que já aprendi de programação e um pouco das minhas habilidades aprendida com os outros trabalhaos que ja tive</p>
-            </div>
+        <main id="corpo">
+            <section id="parte1">
+                <div id="inicio">
+                    <div id="conteudo">
+                        <p>Olá, me chamo Maycon Wallas e sou estudante de programação, especialmente me aprofundando em Front-end. Sou uma pessoa dedicada e proativa, sempre buscando me atualizar e aprender coisas novas. Gosto de trabalhar em equipe e colaborar com os colegas para alcançarmos nossos objetivos.
+                        Atualmente, estou em busca de oportunidades de estágios ou empregos como desenvolvedor Front-end, onde possa aplicar meus conhecimentos e habilidades adquiridos durante meus estudos e me desenvolver profissionalmente.
             
-
+                        Além disso, estou sempre disposto a fazer networking e conhecer profissionais da minha área para trocarmos experiências e conhecimentos. Caso você tenha alguma oportunidade ou esteja interessado em conversar sobre minha carreira e perspectivas, não hesite em entrar em contato comigo.</p>
+                       <!-- <p id="en">Hello, my name is Maycon Wallas and I am a programming student, specifically delving into Front-end development. I am a dedicated and proactive person, always seeking to update myself and learn new things. I enjoy working in a team and collaborating with colleagues to achieve our goals.
+                        Currently, I am looking for internships or jobs as a Front-end developer, where I can apply my knowledge and skills acquired during my studies and develop professionally.
+            
+                        In addition, I am always open to networking and meeting professionals in my field to exchange experiences and knowledge. If you have any opportunities or are interested in discussing my career and prospects, do not hesitate to contact me.</p>-->
+                    </div>
+                    <div id="foto-conteudo">
+                        <img src="imagens/wallas-web.png" alt="foto Maycon oluando para esquerda no dia do casamento.">
+                    </div>
+                </div>
+            </section>
+            <section id="parte2">
+                <div id="inicio2">
+                    <div id="apresenProjetos">
+                        <h2>Conheça alguns dos meus projetos incríveis, incluindo sites e aplicativos desenvolvidos por mim!</</h2>
+                    </div>
+                    <div id="imagensProjetos">
+                        <a href="onepiece/index.html"><img src="imagens/Onepiece.PNG" alt="imagem luffy de one piece com imagens de manga ao fundo"></a>
+                        <a><img src="imagens/programacao.png" alt="imagem codigo de alguma linguagem de programação desfocado "></a>
+                        <a><img src="imagens/programacao.png" alt="imagem codigo de alguma linguagem de programação desfocado "></a><br>
+                        <a><img src="imagens/programacao.png" alt="imagem codigo de alguma linguagem de programação desfocado "></a>
+                        <a><img src="imagens/programacao.png" alt="imagem codigo de alguma linguagem de programação desfocado "></a>
+                        <a><img src="imagens/programacao.png" alt="imagem codigo de alguma linguagem de programação desfocado "></a>
+                    </div>
+                </div>
         </section>
+        <section id="habilidades">
+            <div id="habiliTec">
+                <p>habilidades da area de programação e tecnologias</p>
+            </div>
+            <div id="habiliTrabalho">
+                <p>habilidades de trabalhos com equipe e outras</p>
+            </div>
+            </section>
+        </main>
         <footer id="rodape">
-            <p>Maycon Wallas - 2023:
+            <p id="rodapeAno"></p>
+            <p>
             <a href="https://github.com/mayconwallas" target="_blank">GitHub<a/> | <a href="https://www.instagram.com/mayconwallasbs/" target="_blank">instagram<a/> | <a href="https://www.linkedin.com/in/maycon-wallas-balbino-da-silva-702710179/" target="_blank">linkedin<a/>
             </p>
         </footer>	
+        <script src="JavaScript/interacao.js"></script>
     </body>
 </html>
