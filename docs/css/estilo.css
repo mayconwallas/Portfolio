@@ -67,8 +67,8 @@ body {
 }
 
 @media screen and (480px) {
-  .inicio {
-    display: ;
+  .conteudo {
+    width: 100%;
   }
     
 }
