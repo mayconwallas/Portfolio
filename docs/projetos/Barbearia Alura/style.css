@@ -102,6 +102,10 @@ footer {
 	margin: 40px auto;
 }
 
+.main-contato{
+	padding: 15px;
+}
+
 .contato label, .input-group legend {
 	display: block;
 	margin: 0 0 5px;
