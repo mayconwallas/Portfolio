@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato - Barbearia Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="caixa">
+            <h1>
+                <img src="imagens/imagens-produtos/logo.png" alt="logo da barbearia alura">
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <main class="main-contato">
+            <form action="">
+                <label for="nomeEsobrenome"> Nome e sobrenome:</label>
+                <input type="text" id="nomeEsobrenome" class="inpute-padrao" required>
+
+                <label for="email">email</label>
+                <input type="email" id="email"class="inpute-padrao"required placeholder="seuemail@seuemail.com">
+
+                <label for="tel">telefone</label>
+                <input type="tel" id="tel"class="inpute-padrao"required placeholder="(xx) xxxxx-xxxx">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" cols="30" rows="10" class="inpute-padrao" required placeholder="Deixe sua mensagem aqui..."></textarea>
+                
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radioEmail"><input id="radioEmail" type="radio" value="e-mail" name="contato">E-mail</label>
+                    
+                    <label for="radioTelefone"><input id="radioTelefone" type="radio" value="Telefone" name="contato">Telefone</label>
+                    
+                    <label for="radioWhatsapp"><input id="radioWhatsapp" type="radio" value="Whatsapp" name="contato" checked>Whatsapp</label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select id="">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+                </fieldset>
+                <label for=""><input type="checkbox" class="checkbox" checked>Costaria de receber nossas novidades por email?</label>
+
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>segunta</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    <footer>
+        <img src="imagens/imagens-produtos/logo-branco.png" alt="logo da barbearia alura">
+        <p class="copyright">&copy; Copyrigth Barbearia Alura - 2019</p>
+    </footer>
+</body>
+</html>
