@@ -112,6 +112,12 @@ body {
     height: 532px;
 }
 
+.apresentacao__imagem__projetos {
+    width: 40%;
+    height: 300px;
+    
+}
+
 .rodape {
 text-align: center;
     padding: 24px;
@@ -140,5 +146,12 @@ text-align: center;
 
     .apresentacao__conteudo {
         width: auto;
+    }
+
+    .apresentacao__imagem__projetos {
+        width: 75%;
+        height: 400px;
+        padding-left: 13%;
+        
     }
 }
