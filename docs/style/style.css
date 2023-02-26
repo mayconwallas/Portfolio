@@ -29,12 +29,14 @@ body {
 }
 
 .cabecalho {
-    padding: 5% 0 0 15% ;
+    padding: 5% 0 0 0;
 }
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
 }
 .cabecalho__menu__links {
     color: var(--cor-terciaria);
