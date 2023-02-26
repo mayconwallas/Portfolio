@@ -1,16 +1,13 @@
-### Hi there 👋
+# Hi there 👋 
 
-<!--
-**mayconwallas/mayconwallas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## repositório do meu portfólio
 
-Here are some ideas to get you started:
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+> LOADING
+
+
+
+
+| [<img src="https://avatars.githubusercontent.com/u/111979915?s=400&u=c1e8697e2b19ee7e7e89c3b84259d83ee6623f0b&v=4" width=115><br><sub>Maycon Wallas</sub>](https://github.com/mayconwallas) |
+| :---: |
