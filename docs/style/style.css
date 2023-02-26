@@ -6,19 +6,25 @@
     /* --cor-primaria: #042326;
     --cor-segundaria: #f6f6f6;
     --cor-terciaria: #22d4fd;
-    --cor-hover: #272727; */
+    --cor-hover: #272727;
+
     --cor-primaria: #1A120B;
     --cor-segundaria: #E5E5CB;
     --cor-terciaria: #61483c;
-    --cor-hover: #D5CEA3;
+    --cor-hover: #D5CEA3; */
+
+    --cor-primaria: #54b9b9;
+    --cor-segundaria: #473f33;
+    --cor-terciaria: #d6e92b;
+    --cor-hover: #e9ebbf;
 
     --font-primaria: 'Krona One', sans-serif;
     --font-segundaria: 'Montserrat', sans-serif;
 }
 
 body {
-    box-sizing: border-box;
     background-color: var(--cor-primaria);
+    box-sizing: border-box;
     color: var(--cor-segundaria);
 }
 
@@ -31,11 +37,11 @@ body {
     gap: 80px;
 }
 .cabecalho__menu__links {
-    font-size: 1.5rem;
+    color: var(--cor-terciaria);
     font-family: var(--font-segundaria);
+    font-size: 1.5rem;
     font-weight: 400;
     text-decoration: none;
-    color: var(--cor-terciaria);
 }
 
 .apresentacao {
