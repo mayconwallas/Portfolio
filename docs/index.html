@@ -1,30 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="./style/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__links" href="index.html">Home</a>
-            <a class="cabecalho__menu__links" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__links" href="projects.html">Projetos</a>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #54b9b9;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./imagens/html_css_js.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    Portfólio
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about.html">Sobre mim</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="projects.html">Projetos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
+
     <main class="apresentacao">
          <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível 
             <strong class="titulo-destaque">com um Front-end de qualidade!
             </strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou Maycon Wallas, desenvolvedor
-                Front-end com especialidade em HTML e
-                CSS e JavaScript.
+            <p class="apresentacao__conteudo__texto">
+                Olá! Você está procurando um desenvolvedor com habilidades em Front-end que possa dar vida às suas ideias na web? Eu sou a pessoa certa! Com uma paixão inegável pela criação de interfaces impressionantes e funcionais, tenho o prazer de convidá-lo para conhecer meu portfólio. Nele, você encontrará uma seleção de projetos que demonstrem minha expertise em HTML, CSS, JavaScript, Git e Github. Você não vai querer perder a oportunidade de conferir o que posso fazer por seu negócio. Então, por que não dar uma olhada agora mesmo? Basta clicar no link <a href="./projects.html"> projetos </a> e conferir o que posso fazer por você!
             </p>
             <div class="apresentacao__links">
                 <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
@@ -38,8 +59,11 @@
         </section>
             <img class="apresentacao__imagem" src="./assets/wallas03.PNG" alt="foto do maycon wallas de branco">
     </main>
+
     <footer class="rodape">
         <p>&copy; Criado por - Maycon Wallas</p>
     </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
