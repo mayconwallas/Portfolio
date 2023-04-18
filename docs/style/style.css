@@ -30,6 +30,7 @@ body {
 
 /*inicia novo cabecalho*/
 
+
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
@@ -183,24 +184,34 @@ body {
 }
 /*fim cabecalho*/
 
+
+/* inicio mains geral*/
+
 .apresentacao {
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 82px;
-}
-
-
-.apresentacao__conteudo {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 2em;
+}
+
+.apresentacao__conteudo {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.apresentacao__imagem {
+    width: 75%;
+    border-radius: 100px;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 2.25rem;
+    font-size: 1.5em;
     font-family: var(--font-primaria);
 }
 
@@ -209,9 +220,11 @@ body {
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 1.2em;
     font-family: var(--font-segundaria);
 }
+
 
 .apresentacao__links{
     display: flex;
@@ -252,15 +265,26 @@ body {
     height: 2rem;
 }
 
-.apresentacao__imagem {
-    width: 75%;
-    height: 532px;
-    border-radius: 100px;
+.apresentacao__conteudo__imagens {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentacao__conteudo__imagens a {
+    text-align: center;
+}
+
+.apresentacao__conteudo__imagens img {
+    width: 85%;
+    height: 85%;
 }
 
 .apresentacao__imagem__projetos {
     width: 40%;
-    height: 300px;
+    
     
 }
 
@@ -275,29 +299,14 @@ text-align: center;
     font-weight: 400;
 }
 
-@media screen and (max-width: 1200px) {
-    .cabecalho {
-        padding: 10%;
-    }
 
-    .cabecalho__menu {
-        justify-content: center;
-        gap: 40px;
-    }
-    
-    .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
 
-    .apresentacao__conteudo {
-        width: auto;
-    }
+@media screen and (max-width: 800px) {
 
-    .apresentacao__imagem__projetos {
-        width: 75%;
-        height: 400px;
-        padding-left: 13%;
-        
-    }
-}
+} 
+
+
+@media screen and (max-width: 1024px) {
+   
+} 
+
