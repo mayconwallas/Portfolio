@@ -5,7 +5,7 @@ export const projectData = [
 		description:
 			'Uma pequena ajuda quando for ao supermercado, com opção de incluir, editar ou remover itens.',
 		gitHubLink: 'https://github.com/mayconwallas/Portfolio/tree/main/docs/src/components/indexDosProjetos/projetos/ListadeSupermercado',
-		Link: '.\indexDosProjetos\projetos\ListadeSupermercado\index.html',
+		Link: 'https://projetos-desafios.vercel.app/ListadeSupermercado/index.html',
 	},
 	{
 		id: 2,
@@ -13,6 +13,7 @@ export const projectData = [
 		description:
 			'Um dos meus primeiros projetos que fiz enquanto estava aprendendo HTML e CSS',
 		gitHubLink: 'https://github.com/mayconwallas/Portfolio/tree/main/docs/src/components/indexDosProjetos/projetos/onepiece',
+		Link: 'https://projetos-desafios.vercel.app/onepiece/index.html',
 	},
 	{
 		id: 3,
@@ -20,6 +21,7 @@ export const projectData = [
 		description:
 			'Um pequeno jogo feito para passar o tempo, o objetivo e atravessar a rua sem ser atropelado, cuidado tem carros mais rápidos que outros.',
 		gitHubLink: 'https://github.com/mayconwallas/Portfolio/tree/main/docs/src/components/indexDosProjetos/projetos/jogoLogica',
+		Link: 'https://projetos-desafios.vercel.app/jogoLogica/index.html',
 	},
 	{
 		id: 4,
@@ -27,5 +29,14 @@ export const projectData = [
 		description:
 			'Um dos primeiros sites que fiz no meu aprendizado na carreira de Front-end.',
 		gitHubLink: 'https://github.com/mayconwallas/Portfolio/tree/main/docs/src/components/indexDosProjetos/projetos/Barbearia%20Alura',
+		Link: 'https://projetos-desafios.vercel.app/Barbearia%20Alura/index.html',
+	},
+	{
+		id: 5,
+		title: 'Alura Space',
+		description:
+			'Estudando na alura acabo fazendo varios projetos e esse é um deles.',
+		gitHubLink: 'https://github.com/mayconwallas/reactAluraSpace',
+		Link: 'https://react-alura-space-theta.vercel.app/',
 	},
 ];
