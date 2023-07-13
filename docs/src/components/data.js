@@ -5,6 +5,7 @@ export const projectData = [
 		description:
 			'Uma pequena ajuda quando for ao supermercado, com opção de incluir, editar ou remover itens.',
 		gitHubLink: 'https://github.com/mayconwallas/Portfolio/tree/main/docs/src/components/indexDosProjetos/projetos/ListadeSupermercado',
+		Link: '.\indexDosProjetos\projetos\ListadeSupermercado\index.html',
 	},
 	{
 		id: 2,
