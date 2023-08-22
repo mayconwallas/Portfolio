@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(120deg, #3bff5cd8, #25ccffda);
+  font-family: "Roboto", sans-serif;
+  color: rgba(18, 49, 40, 0.9);
+}
+
+.container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 25px;
+}
+
+.container ul li {
+  list-style: none;
+}
+
+.container-btn {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  color: #ffffff;
+  background: rgba(18, 49, 40, 0.9);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  padding: 15px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: solid rgba(18, 49, 40, 0.9);
+}
+
+/*cronometro*/
+
+.container_relogio {
+  align-items: center;
+  background: transparent;
+  border-radius: 3px;
+  box-shadow: 0px 8px 10px rgb(0, 0, 0, 0.5);
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 15px;
+}
+
+.container_relogio div {
+  height: 170px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: rgba(18, 49, 40, 0.9);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 7px;
+  letter-spacing: 3px;
+}
+
+.container_relogio div span {
+  font-weight: bold;
+  font-size: 50px;
+}
+.container_relogio span.tempo {
+  font-size: 15px;
+  text-align: center;
+}

@@ -39,4 +39,20 @@ export const projectData = [
 		gitHubLink: 'https://github.com/mayconwallas/reactAluraSpace',
 		Link: 'https://react-alura-space-theta.vercel.app/',
 	},
+	{
+		id: 6,
+		title: 'Jogo Mario Run',
+		description:
+			'Estudando lógica em jogos no navegador.',
+		gitHubLink: 'https://github.com/mayconwallas/reactAluraSpace',
+		Link: 'https://projetos-desafios.vercel.app/Mario/index.html',
+	},
+	{
+		id: 7,
+		title: 'Crônometro',
+		description:
+			'Estudando lógica aplicando em projetos.',
+		gitHubLink: 'https://github.com/mayconwallas/reactAluraSpace',
+		Link: 'https://projetos-desafios.vercel.app/cronometro/index.html',
+	},
 ];
