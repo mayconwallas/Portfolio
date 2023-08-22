@@ -44,7 +44,7 @@ export const projectData = [
 		title: 'Jogo Mario Run',
 		description:
 			'Estudando lógica em jogos no navegador.',
-		gitHubLink: 'https://github.com/mayconwallas/reactAluraSpace',
+		gitHubLink: 'https://github.com/mayconwallas/Portfolio/tree/main/docs/src/components/indexDosProjetos/projetos/RunMario',
 		Link: 'https://projetos-desafios.vercel.app/Mario/index.html',
 	},
 	{
@@ -52,7 +52,7 @@ export const projectData = [
 		title: 'Crônometro',
 		description:
 			'Estudando lógica aplicando em projetos.',
-		gitHubLink: 'https://github.com/mayconwallas/reactAluraSpace',
+		gitHubLink: 'https://github.com/mayconwallas/Portfolio/tree/main/docs/src/components/indexDosProjetos/projetos/Cronometro',
 		Link: 'https://projetos-desafios.vercel.app/cronometro/index.html',
 	},
 ];
