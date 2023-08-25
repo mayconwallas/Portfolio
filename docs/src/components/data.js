@@ -56,11 +56,11 @@ export const projectData = [
 		Link: 'https://projetos-desafios.vercel.app/cronometro/index.html',
 	},
 	{
-		id: 7,
+		id: 8,
 		title: 'Pomodoro Time',
 		description:
 			'Aplicando manipulação de DOM.',
-		gitHubLink: 'https://github.com/mayconwallas/Portfolio/tree/main/docs/src/components/indexDosProjetos/projetos/',
-		Link: 'https://projetos-desafios.vercel.app/cronometro/index.html',
+		gitHubLink: 'https://github.com/mayconwallas/Portfolio/tree/main/docs/src/components/indexDosProjetos/projetos/PmodoroTimesFocus',
+		Link: 'https://projetos-desafios.vercel.app/PomodoroTimesFocus/index.html',
 	},
 ];
