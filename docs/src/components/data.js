@@ -60,7 +60,7 @@ export const projectData = [
 		title: 'Pomodoro Time',
 		description:
 			'Aplicando manipulação de DOM.',
-		gitHubLink: 'https://github.com/mayconwallas/Portfolio/tree/main/docs/src/components/indexDosProjetos/projetos/Cronometro',
+		gitHubLink: 'https://github.com/mayconwallas/Portfolio/tree/main/docs/src/components/indexDosProjetos/projetos/',
 		Link: 'https://projetos-desafios.vercel.app/cronometro/index.html',
 	},
 ];
