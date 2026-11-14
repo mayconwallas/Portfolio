@@ -1,16 +1,15 @@
+import Header from '@/components/layout/Header'
+import Hero from '@/components/sections/Hero'
+
 function App() {
   return (
-    <main className="min-h-screen bg-slate-950 text-white flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-5xl font-bold text-cyan-400">
-          Maycon Wallas
-        </h1>
+    <div className="min-h-screen bg-slate-950 text-white">
+      <Header />
 
-        <p className="mt-4 text-lg text-slate-300">
-          Portfólio em construção.
-        </p>
-      </div>
-    </main>
+      <main>
+        <Hero />
+      </main>
+    </div>
   )
 }
 
